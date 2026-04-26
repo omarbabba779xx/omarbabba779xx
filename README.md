@@ -1,16 +1,95 @@
-## Hi there 👋
+<h1 align="center">Hi, I'm Omar 👋</h1>
 
-<!--
-**omarbabba779xx/omarbabba779xx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <em>Cybersecurity Engineering Student · Building safer digital environments, one project at a time.</em>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Cybersecurity-1f6feb?style=flat-square" />
+  <img src="https://img.shields.io/badge/Field-Computer%20Networks%20%26%20Security-0a7e8c?style=flat-square" />
+  <img src="https://img.shields.io/badge/School-EMSI%20Tanger-c1272d?style=flat-square" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🎓 About Me
+
+I'm a **4th-year engineering student** at **EMSI Tanger** (École Marocaine des Sciences de l'Ingénieur), specializing in **Computer Networks & Cybersecurity** (Filière 4IIR — Informatique et Réseaux, parcours Cybersécurité).
+
+My passion lies at the intersection of **offensive and defensive security**: understanding how systems break in order to build them stronger. I'm particularly drawn to areas where security meets real engineering challenges — SOC operations, threat intelligence, cloud security posture, and the emerging security implications of AI systems.
+
+Every project on this profile is a step toward becoming a well-rounded security engineer capable of working across the full defensive spectrum — from infrastructure hardening to incident response.
+
+---
+
+### 🛡️ What I Work On
+
+- 🔍 **Threat Detection & SOC Engineering** — building simulations, validating controls, mapping coverage to MITRE ATT&CK
+- ☁️ **Cloud Security** — multi-cloud posture assessment across AWS, Azure, and GCP
+- 🤖 **AI/LLM Security** — exploring the OWASP LLM Top 10 and how to defend modern AI applications
+- ⛓️ **Applied Cryptography & Blockchain** — secure-by-design architectures for sensitive domains
+- 🧪 **Security Lab Work** — pentesting, vulnerability analysis, and detection engineering
+
+---
+
+### 🚀 Featured Projects
+
+> A selection of projects that reflect what I care about most.
+
+#### [🎯 CyberTwin-SOC](https://github.com/omarbabba779xx/CyberTwin-SOC)
+Enterprise digital twin for cyber attack simulation, SOC readiness evaluation, MITRE ATT&CK coverage analysis, and automated SOAR response.
+> `Python` · SOC · MITRE ATT&CK · SOAR
+
+#### [☁️ CloudHawk](https://github.com/omarbabba779xx/Cloudhawk)
+Multi-cloud security scanner for AWS, Azure & GCP. Detects public storage, overly permissive IAM, disabled logs, missing MFA, and exposed networks.
+> `Python` · CSPM · AWS · Azure · GCP
+
+#### [🔐 LLM-Security-Lab](https://github.com/omarbabba779xx/LLM-Security-Lab)
+Hands-on lab demonstrating and remediating the OWASP LLM Top 10 attacks — prompt injection, data exfiltration, tool abuse, output exploitation, and data poisoning — on a RAG/agent-based system.
+> `Python` · LLM Security · OWASP · RAG
+
+#### [🛠️ ControlGuard](https://github.com/omarbabba779xx/Controlguard)
+Automated security control validation lab covering Windows, Linux, web applications, Microsoft Entra, and Okta.
+> `Python` · Security Validation · IAM
+
+#### [🏥 Medichain+](https://github.com/omarbabba779xx/Medichain-plus)
+Hybrid blockchain platform for digital health — combining EHR, SSI, DeFi, and IoT in a privacy-preserving architecture.
+> `HTML` · Blockchain · Healthcare · SSI
+
+---
+
+### 🧰 Tech & Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/MITRE_ATT%26CK-BA0C2F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white" />
+</p>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=omarbabba779xx&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omarbabba779xx&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
+
+---
+
+### 🎯 Currently Learning
+
+- Detection engineering with the Elastic Stack
+- Adversary emulation and purple-team workflows
+- Securing AI-driven applications and agentic systems
+
+---
+
+<p align="center">
+  <em>"Security is not a product, but a process." — Bruce Schneier</em>
+</p>
