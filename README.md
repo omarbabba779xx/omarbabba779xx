@@ -9,6 +9,7 @@
 </p>
 
 🎓 About Me
+
 I'm a 4th-year engineering student at EMSI Tanger (École Marocaine des Sciences de l'Ingénieur), specializing in Computer Networks & Cybersecurity (Filière 4IIR).
 My passion lies at the intersection of offensive and defensive security: understanding how systems break in order to build them stronger. I'm particularly drawn to SOC operations, threat intelligence, cloud security posture, and the emerging security implications of AI systems.
 Every project on this profile is a step toward becoming a well-rounded security engineer — capable of working across the full defensive spectrum, from infrastructure hardening to incident response.
