@@ -44,8 +44,8 @@ class SecurityEngineer:
 | 🧪 Tests | **976 passing · 0 failed** |
 | 🗺️ MITRE ATT&CK | **622 techniques — v19 Enterprise** |
 | 🔍 Detection Rules | **51 Sigma-compatible rules** |
-| 🔌 SIEM/SOAR Connectors | **Sentinel · Splunk · Jira · MISP · TheHive · Cortex** |
-| 🖥️ Dashboard | **28 pages** — live simulation · case management · coverage center |
+| 🔌 SIEM/SOAR | **Sentinel · Splunk · Jira · MISP · TheHive · Cortex** |
+| 🖥️ Dashboard | **28 pages** — live simulation · case management · coverage |
 | 🔒 Auth | **JWT · RBAC · OIDC · bcrypt · multi-tenant** |
 
 ---
@@ -80,16 +80,17 @@ class SecurityEngineer:
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=omarbabba779xx&show_icons=true&theme=github_dark&hide_border=true&title_color=e63946&icon_color=e63946&text_color=c9d1d9&bg_color=0d1117&include_all_commits=true&count_private=true" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omarbabba779xx&layout=compact&theme=github_dark&hide_border=true&title_color=e63946&icon_color=e63946&text_color=c9d1d9&bg_color=0d1117&langs_count=8" height="170" />
+<!-- Contribution graph — wakatime-independent, uses GitHub Events API -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=omarbabba779xx&bg_color=0d1117&color=e63946&line=e63946&point=ffffff&area=true&hide_border=true" width="100%" />
 
 <br/>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=omarbabba779xx&theme=github-dark-blue&hide_border=true&ring=e63946&fire=e63946&currStreakLabel=e63946)
+<!-- Streak — demolab is reliable -->
+![GitHub Streak](https://streak-stats.demolab.com?user=omarbabba779xx&theme=github-dark-blue&hide_border=true&ring=e63946&fire=e63946&currStreakLabel=e63946&background=0d1117)
 
 </div>
 
