@@ -29,12 +29,24 @@ class SecurityEngineer:
 
 ## 🔥 Featured Project
 
-<a href="https://github.com/omarbabba779xx/CyberTwin-SOC">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=omarbabba779xx&repo=CyberTwin-SOC&theme=github_dark&hide_border=true&title_color=e63946&icon_color=e63946&text_color=c9d1d9&bg_color=0d1117" />
-</a>
+### [CyberTwin SOC](https://github.com/omarbabba779xx/CyberTwin-SOC)
 
-> **CyberTwin SOC** — Full-stack Digital Twin platform for cyber attack simulation and SOC readiness assessment.  
-> `976 tests` · `622 MITRE ATT&CK techniques` · `51 detection rules` · `6 SIEM/SOAR connectors` · `FastAPI + React 18`
+> Full-stack **Digital Twin** platform for cyber attack simulation and SOC readiness assessment.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+| | |
+|---|---|
+| 🧪 Tests | **976 passing · 0 failed** |
+| 🗺️ MITRE ATT&CK | **622 techniques — v19 Enterprise** |
+| 🔍 Detection Rules | **51 Sigma-compatible rules** |
+| 🔌 SIEM/SOAR Connectors | **Sentinel · Splunk · Jira · MISP · TheHive · Cortex** |
+| 🖥️ Dashboard | **28 pages** — live simulation · case management · coverage center |
+| 🔒 Auth | **JWT · RBAC · OIDC · bcrypt · multi-tenant** |
 
 ---
 
