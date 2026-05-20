@@ -1,128 +1,180 @@
 <div align="center">
 
-<!-- Typing animation banner -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=E63946&center=true&vCenter=true&width=700&lines=Omar+Babba;Cybersecurity+Engineer;SOC+%7C+Threat+Detection+%7C+Digital+Twin;Red+%2B+Blue+Team+Mindset" alt="Typing SVG" />
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║  ██████╗ ███╗   ███╗ █████╗ ██████╗     ██████╗                  ║
+║ ██╔═══██╗████╗ ████║██╔══██╗██╔══██╗   ██╔══██╗                  ║
+║ ██║   ██║██╔████╔██║███████║██████╔╝   ██████╔╝                  ║
+║ ██║   ██║██║╚██╔╝██║██╔══██║██╔══██╗   ██╔══██╗                  ║
+║ ╚██████╔╝██║ ╚═╝ ██║██║  ██║██║  ██║██╗██████╔╝                  ║
+║  ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═════╝                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Detection+Engineer+%7C+Threat+Intelligence;SOC+Digital+Twin+Architect;MITRE+ATT%26CK+%7C+Sigma+%7C+STIX2+%2F+TAXII2;Building+systems+that+hunt+threats+autonomously" alt="Typing SVG" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/omarbabba)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omarbabba27@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omarbabba779xx)
+[![GitHub followers](https://img.shields.io/github/followers/omarbabba779xx?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=00ff41)](https://github.com/omarbabba779xx)
+![Profile Views](https://komarev.com/ghpvc/?username=omarbabba779xx&style=for-the-badge&color=00ff41&labelColor=0d1117)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com)
 
 </div>
 
 ---
 
-## `whoami`
+<div align="center">
+
+## `> whoami`
+
+</div>
 
 ```python
 class SecurityEngineer:
-    name        = "Omar Babba"
-    school      = "EMSI Tanger — 4IIR (Computer Networks & Cybersecurity)"
-    focus       = ["SOC Operations", "Threat Detection", "Digital Twin", "Threat Intelligence"]
-    red_team    = ["Pentest", "MITRE ATT&CK", "Atomic Red Team", "Kill Chain simulation"]
-    blue_team   = ["SIEM/SOAR", "Detection Engineering", "Incident Response", "NIST CSF"]
-    currently   = "Building CyberTwin SOC — enterprise-grade attack simulation platform"
+    name        = "Omar B."
+    role        = "Detection Engineer & Threat Intelligence Analyst"
+    focus       = ["APT Emulation", "SOAR Automation", "Federated ML-IDS", "SOC Platforms"]
+    philosophy  = "Adversary-first. Data-driven. Build what hunts."
+
+    def current_ops(self):
+        return {
+            "CyberTwin-SOC"  : "46 Sigma rules · 40/622 MITRE techniques · OCSF live ingest",
+            "FedSentinel"    : "Privacy-preserving FL-IDS · Byzantine-robust · SHAP/LIME XAI",
+            "APT-Simulator"  : "22 ATT&CK TTPs · APT29/FIN7/Lazarus · FastAPI orchestrator",
+        }
 ```
 
 ---
 
-## 🔥 Featured Project
+<div align="center">
 
-### [CyberTwin SOC](https://github.com/omarbabba779xx/CyberTwin-SOC)
+## `> ls -la /projects --pinned`
 
-> Full-stack **Digital Twin** platform for cyber attack simulation and SOC readiness assessment.
+</div>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| | |
-|---|---|
-| 🧪 Tests | **976 passing · 0 failed** |
-| 🗺️ MITRE ATT&CK | **622 techniques — v19 Enterprise** |
-| 🔍 Detection Rules | **51 Sigma-compatible rules** |
-| 🔌 SIEM/SOAR | **Sentinel · Splunk · Jira · MISP · TheHive · Cortex** |
-| 🖥️ Dashboard | **28 pages** — live simulation · case management · coverage |
-| 🔒 Auth | **JWT · RBAC · OIDC · bcrypt · multi-tenant** |
+### [`CyberTwin-SOC`](https://github.com/omarbabba779xx/CyberTwin-SOC)
+> Open-source SOC Digital Twin — simulate, detect, respond, measure.
+
+```
+┌─────────────────────────────────────┐
+│  Detection Rules   ██████████  46   │
+│  MITRE Techniques  ██░░░░░░░░  6.4% │
+│  OCSF Live Ingest  ✓ Active         │
+│  Rule-Based Analyst✓ Enabled        │
+└─────────────────────────────────────┘
+```
+
+`FastAPI` `React` `Redis` `PostgreSQL` `Sigma` `MITRE ATT&CK`
+
+</td>
+<td width="50%" valign="top">
+
+### [`FedSentinel`](https://github.com/omarbabba779xx/FedSentinel)
+> Privacy-Preserving Federated Learning IDS — real-time, explainable.
+
+```
+┌─────────────────────────────────────┐
+│  Byzantine-Robust  ✓ Krum + Median  │
+│  Differential DP   ✓ ε-DP Enabled   │
+│  Explainability    ✓ SHAP + LIME    │
+│  Real-time Board   ✓ Live Dashboard │
+└─────────────────────────────────────┘
+```
+
+`Federated Learning` `PyTorch` `STIX2` `Differential Privacy`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [`APT-Simulator`](https://github.com/omarbabba779xx/APT-Simulator)
+> Purple team APT emulation framework — 22 MITRE TTPs mapped end-to-end.
+
+```
+┌─────────────────────────────────────┐
+│  APT Profiles   APT29/FIN7/Lazarus  │
+│  TTPs Covered   ██░░░░░░░░  22      │
+│  ATT&CK Export  ✓ Navigator JSON    │
+│  Audit Chain    ✓ Hash-chained log  │
+└─────────────────────────────────────┘
+```
+
+`Python` `FastAPI` `MITRE ATT&CK` `Sigma` `Purple Team`
+
+</td>
+<td width="50%" valign="top">
+
+### [`Medichain-plus`](https://github.com/omarbabba779xx/Medichain-plus)
+> Dual-blockchain pharmaceutical micro-insurance platform.
+
+```
+┌─────────────────────────────────────┐
+│  Hospital Chain  Hyperledger 2.5    │
+│  Payment Chain   Polygon Amoy       │
+│  Settlement      USDC · Instant     │
+│  Smart Contracts Solidity · ERC20   │
+└─────────────────────────────────────┘
+```
+
+`Hyperledger Fabric` `Solidity` `Polygon` `JavaScript`
+
+</td>
+</tr>
+</table>
 
 ---
-
-## 🛠️ Tech Stack
-
-**Security**
-
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-BA0C2F?style=flat-square)
-![Sigma](https://img.shields.io/badge/Sigma_Rules-2d333b?style=flat-square&logo=github&logoColor=white)
-![Elastic SIEM](https://img.shields.io/badge/Elastic_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
-![TheHive](https://img.shields.io/badge/TheHive-FFAA00?style=flat-square)
-![MISP](https://img.shields.io/badge/MISP-0066CC?style=flat-square)
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
-
-**Development**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**Systems & Tools**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-
----
-
-## 📊 GitHub Activity
 
 <div align="center">
 
-<!-- Contribution graph — wakatime-independent, uses GitHub Events API -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=omarbabba779xx&bg_color=0d1117&color=e63946&line=e63946&point=ffffff&area=true&hide_border=true" width="100%" />
+## `> cat /stack/core`
 
-<br/>
+</div>
 
-<!-- Streak — demolab is reliable -->
-![GitHub Streak](https://streak-stats.demolab.com?user=omarbabba779xx&theme=github-dark-blue&hide_border=true&ring=e63946&fire=e63946&currStreakLabel=e63946&background=0d1117)
+<div align="center">
+
+| Layer | Technologies |
+|---|---|
+| **Threat Detection** | ![Sigma](https://img.shields.io/badge/Sigma-Rules-FF6B35?style=flat-square&logo=target&logoColor=white) ![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-C41E3A?style=flat-square) ![YARA](https://img.shields.io/badge/YARA-Rules-yellow?style=flat-square) |
+| **Threat Intel** | ![STIX2](https://img.shields.io/badge/STIX2-blue?style=flat-square) ![TAXII2](https://img.shields.io/badge/TAXII2-navy?style=flat-square) ![MISP](https://img.shields.io/badge/MISP-darkred?style=flat-square) |
+| **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) |
+| **ML / AI** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![SHAP](https://img.shields.io/badge/SHAP-XAI-blueviolet?style=flat-square) ![sklearn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **Infra** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
+| **SOAR** | ![TheHive](https://img.shields.io/badge/TheHive-yellow?style=flat-square) ![Cortex](https://img.shields.io/badge/Cortex-FF6600?style=flat-square) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) |
 
 </div>
 
 ---
 
-## 🎯 Areas of Expertise
+<div align="center">
 
-```
-Detection Engineering    ████████████████████  SOC Operations         ████████████████░░░░
-Threat Intelligence      ███████████████░░░░░  Incident Response      ██████████████░░░░░░
-Penetration Testing      ████████████░░░░░░░░  Cloud Security         ███████████░░░░░░░░░
-MITRE ATT&CK Framework   ████████████████████  Security Automation    █████████████░░░░░░░
-```
+## `> git log --stat`
 
----
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=omarbabba779xx&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omarbabba779xx&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9"/>
 
-## 🏗️ What I Build
+<br/>
 
-| Domain | Stack | Purpose |
-|---|---|---|
-| **SOC Digital Twin** | FastAPI · React · Redis · PostgreSQL | Simulate APT campaigns, validate detection |
-| **Detection Rules** | Sigma · Python · MITRE ATT&CK | Map adversary TTPs to detection logic |
-| **Threat Intel Pipelines** | STIX2 · TAXII2 · MISP | Ingest and correlate IOCs |
-| **SOAR Automation** | TheHive · Cortex · Jira | Automate incident response playbooks |
-| **Security Monitoring** | Prometheus · OpenTelemetry · Grafana | Observability for security platforms |
+[![GitHub Streak](https://streak-stats.demolab.com?user=omarbabba779xx&theme=terminal&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=ff6b35&currStreakLabel=00ff41)](https://git.io/streak-stats)
+
+</div>
 
 ---
 
 <div align="center">
 
-*"Security is not a product, but a process."* — Bruce Schneier
+```
+╔══════════════════════════════════════════════════════════╗
+║  "The best defense is understanding how attackers think" ║
+║                                          — Omar B.       ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-![Profile Views](https://komarev.com/ghpvc/?username=omarbabba779xx&color=e63946&style=flat-square&label=Profile+Views)
+*Detection Engineering · Threat Intelligence · Purple Team · SOC Platforms*
 
 </div>
