@@ -153,28 +153,6 @@ class SecurityEngineer:
 
 <div align="center">
 
-## `> git log --stat`
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=omarbabba779xx&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omarbabba779xx&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9"/>
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=omarbabba779xx&theme=terminal&hide_border=true&background=0d1117&stroke=00ff41&ring=00ff41&fire=ff6b35&currStreakLabel=00ff41)](https://git.io/streak-stats)
-
-</div>
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════╗
-║  "The best defense is understanding how attackers think" ║
-║                                          — Omar B.       ║
-╚══════════════════════════════════════════════════════════╝
-```
-
 *Detection Engineering · Threat Intelligence · Purple Team · SOC Platforms*
 
 </div>
