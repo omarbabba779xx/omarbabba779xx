@@ -2,19 +2,19 @@
 
 # Omar Babba
 
-### Aspiring SOC Analyst — Detection Engineering & Threat Intelligence
+### Élève Ingénieur en Cybersécurité — SOC Junior | Detection Engineering
 
 Tangier, Morocco
 
 </div>
 
 <p align="center">
-I build the tools I'd want to use on a SOC floor: detection rules mapped to real adversary behavior, an IDS that learns without leaking data, and a range to safely emulate the threats I study. Learning by shipping — not just reading playbooks.
+4th-year Computer Science & Networks engineering student at EMSI Tanger, focused on defensive security, SOC operations, and detection engineering. Projects centered on SIEM/SOAR, Sigma rules, MITRE ATT&CK, alert triage, log analysis and incident response — with a side specialization in blockchain security.
 </p>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/omarbabba)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:omarbabba27@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/omarbabba779xx)
 
@@ -22,14 +22,19 @@ I build the tools I'd want to use on a SOC floor: detection rules mapped to real
 
 ---
 
-### What I'm learning by building
+## Education
 
-| Domain | What that looks like in practice |
-|---|---|
-| **Detection Engineering** | Writing and testing Sigma rules against real attack techniques, not copy-pasting from a repo |
-| **Threat Intelligence** | Structuring IOCs/TTPs as STIX2 so they're actually usable downstream |
-| **Adversary Emulation** | Replaying APT29 / FIN7 / Lazarus TTPs to see what my own detections miss |
-| **Applied ML for Security** | Training IDS models and being honest about their failure modes (drift, adversarial input, privacy) |
+**Cycle Ingénieur — Informatique et Réseaux** · EMSI (École Marocaine des Sciences de l'Ingénieur), Tanger · 2022 – Present
+- Web/mobile security: OWASP Top 10, SQLi/XSS, APK analysis, root detection, InsecureBank/InsecureShop
+- VPN & monitoring: IPsec/IKE, OpenVPN, WireGuard, Wireshark, SNMP/Syslog, Zabbix, Prometheus
+- Incident & intrusion: SIEM/SOC, Windows/Linux logs, Sigma, MITRE ATT&CK, triage, SEC555 methodology
+
+## Experience
+
+**Cybersecurity Awareness Internship** · Amendis Tangier (Groupe Veolia) · August 2025
+- Delivered fundamentals training: CIA triad, user-side risk, phishing, security best practices
+- Exposure to SCADA environments, the Riot platform, and GLPI for inventory/operational tracking
+- Ran a phishing simulation — measurable drop in click-through rate after awareness training
 
 ---
 
@@ -37,57 +42,40 @@ I build the tools I'd want to use on a SOC floor: detection rules mapped to real
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### [CyberTwin-SOC](https://github.com/omarbabba779xx/CyberTwin-SOC-v2)
-A SOC digital twin — a sandboxed environment to test detections before they hit production.
+SOC, SIEM & Detection Engineering
 
-- 628 Sigma rules mapped to 622 MITRE ATT&CK techniques
-- OCSF-normalized live log ingest
-- Multi-tenant auth (OIDC + RBAC)
-- 88.7% test coverage
+- Full-stack SOC platform with OCSF ingestion
+- 4,000+ Sigma/MITRE/Elastic rules with ATT&CK coverage mapping
+- Analyst workflows, coverage scoring, rule validation
 
-`Python` `FastAPI` `React` `PostgreSQL` `Redis` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-### [FedSentinel](https://github.com/omarbabba779xx/FedSentinel)
-A federated learning IDS — trains across nodes without centralizing raw traffic data.
-
-- Byzantine-robust aggregation (Krum, coordinate-median)
-- Differential privacy on model updates
-- SHAP/LIME so alerts are explainable, not a black box
-- Validated across 50 federated clients
-
-`PyTorch` `Federated Learning` `STIX2`
+`SOC` `SIEM` `Sigma` `MITRE ATT&CK` `Python` `Docker`
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### [APT-Simulator](https://github.com/omarbabba779xx/APT-Simulator)
-A purple-team range — emulate real adversary playbooks, then check what your SOC actually caught.
+MITRE ATT&CK Detection Validation
 
-- 22 MITRE ATT&CK TTPs across APT29 / FIN7 / Lazarus
-- ATT&CK Navigator export for coverage review
-- Hash-chained audit log for integrity
-- SOAR hooks (TheHive / Cortex)
+- Lab-safe framework covering 22 ATT&CK TTPs
+- APT29 / FIN7 / Lazarus / APT41 emulation profiles
+- Reproducible JSONL SIEM traces to test alert coverage and improve Sigma rules
 
-`Python` `FastAPI` `MITRE ATT&CK` `Sigma`
+`MITRE ATT&CK` `SIEM` `Sigma` `APT` `Docker`
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### [Medichain-plus](https://github.com/omarbabba779xx/Medichain-plus)
-A dual-blockchain platform exploring integrity and privacy guarantees outside pure security tooling.
+### [MediChain-plus](https://github.com/omarbabba779xx/Medichain-plus)
+Blockchain Security Audit
 
-- Hyperledger Fabric for hospital-side records
-- Polygon/USDC for instant settlement
-- ZK-proof enrollment for patient privacy
+- Fabric + Polygon: private prescriptions, Node.js bridge, Solidity smart contract
+- Smart contract audit: 19 findings remediated, reentrancy guard added
+- CI security pipeline with Slither / Semgrep / Gitleaks
 
-`Hyperledger Fabric` `Solidity` `Polygon`
+`Blockchain Security` `Solidity` `Slither` `Semgrep` `Gitleaks`
 
 </td>
 </tr>
@@ -95,17 +83,19 @@ A dual-blockchain platform exploring integrity and privacy guarantees outside pu
 
 ---
 
-## Toolbox
+## Skills
+
+| Area | Details |
+|---|---|
+| **SOC & Detection Engineering** | SIEM/SOAR, Sigma, MITRE ATT&CK, OCSF, SOC use cases, alert triage, log analysis |
+| **Incident & Intrusion Management** | Preparation, triage, containment, eradication, recovery, EVTX, auditd, Zeek |
+| **Network Security, VPN & Monitoring** | IPsec/IKE, OpenVPN, WireGuard, GRE, OSPF, SNMP, NetFlow/sFlow, Wireshark, Zabbix |
+| **Web & Mobile Security** | OWASP Top 10, SQLi/XSS, access control, session security, APK analysis, root detection |
+| **Blockchain Security & Smart Contracts** | Ethereum, Solidity, smart contracts, ERC-20/ERC-721, PoW/PoS, Slither, Semgrep, Gitleaks |
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,react,ts,postgres,redis,docker,kubernetes,pytorch,sklearn,grafana,prometheus,linux,git&theme=dark" />
-
-</div>
-
-<div align="center">
-
-`Sigma` `MITRE ATT&CK` `YARA` `OCSF` `STIX2 / TAXII2` `MISP` `TheHive` `Cortex` `Semgrep` `Checkov` `Trivy`
+<img src="https://skillicons.dev/icons?i=python,docker,linux,git,react,ts,postgres,solidity,grafana,wireshark&theme=dark" />
 
 </div>
 
@@ -126,16 +116,12 @@ A dual-blockchain platform exploring integrity and privacy guarantees outside pu
 
 </div>
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=omarbabba779xx&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&hide_border=true&hide_title=true" />
-
-</div>
-
 ---
 
 <div align="center">
 
-<sub>Open to SOC analyst / detection engineering roles and internships — reach out via LinkedIn or email above.</sub>
+**Languages:** French (Advanced) · English (Advanced) · Arabic (Native)
+
+<sub>Open to SOC analyst / detection engineering internships — reach out via LinkedIn or email above.</sub>
 
 </div>
