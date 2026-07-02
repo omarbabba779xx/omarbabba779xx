@@ -4,7 +4,7 @@
 
 ### Aspiring SOC Analyst — Detection Engineering & Threat Intelligence
 
-Casablanca, Morocco
+Tangier, Morocco
 
 </div>
 
