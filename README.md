@@ -122,7 +122,7 @@ A dual-blockchain platform exploring integrity and privacy guarantees outside pu
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=omarbabba779xx&hide_border=true&background=0d1117&stroke=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=6e7681" />
+<img src="https://streak-stats.demolab.com?user=omarbabba779xx&hide_border=true&background=0d1117&stroke=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=6e7681" />
 
 </div>
 
