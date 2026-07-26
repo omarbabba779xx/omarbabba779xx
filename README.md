@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=4" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=4" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=4" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
-</picture>
+<img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=5" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
 
 </div>
 
@@ -109,6 +105,21 @@ Blockchain Security Audit
 
 </div>
 
+**SIEM & Log Management**
+`Splunk` `IBM QRadar` `Microsoft Sentinel` `Elastic (ELK)` `Graylog` `Wazuh`
+
+**SOAR & Case Management**
+`Cortex XSOAR` `Shuffle` `TheHive` `MISP`
+
+**IDS / NSM / Detection Engineering**
+`Suricata` `Zeek` `Snort` `Sigma` `YARA` `Sysmon`
+
+**Forensics & Threat Hunting**
+`Velociraptor` `Osquery` `Volatility` `KAPE`
+
+**EDR & Cloud Detection**
+`CrowdStrike Falcon` `Microsoft Defender` `Google Chronicle / SecOps`
+
 ---
 
 ## GitHub Activity
@@ -127,5 +138,9 @@ Blockchain Security Audit
 **Languages:** French (Advanced) · English (Advanced) · Arabic (Native)
 
 <sub>Open to SOC analyst / detection engineering internships — reach out via LinkedIn or email above.</sub>
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=omarbabba779xx&label=Profile+Views&color=58a6ff&style=flat-square" alt="Profile views" />
 
 </div>
