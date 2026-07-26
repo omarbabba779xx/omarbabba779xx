@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=5" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=5" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=5" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=5" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
+</picture>
 
 </div>
 
@@ -138,9 +142,5 @@ Blockchain Security Audit
 **Languages:** French (Advanced) · English (Advanced) · Arabic (Native)
 
 <sub>Open to SOC analyst / detection engineering internships — reach out via LinkedIn or email above.</sub>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=omarbabba779xx&label=Profile+Views&color=58a6ff&style=flat-square" alt="Profile views" />
 
 </div>
