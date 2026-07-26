@@ -1,8 +1,13 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:161b22&text=Omar%20Babba&fontColor=58a6ff&fontSize=42&fontAlignY=40&desc=SOC%20Junior%20%7C%20Detection%20Engineering&descAlignY=62&descSize=16&descColor=c9d1d9&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:161b22&text=Omar%20Babba&fontColor=58a6ff&fontSize=42&fontAlignY=40&desc=SOC%20Junior%20%7C%20Detection%20Engineering&descAlignY=62&descSize=16&descColor=c9d1d9&animation=fadeIn" width="100%" />
+</picture>
+
 <div align="center">
 
-# Omar Babba
-
-### Élève Ingénieur en Cybersécurité — SOC Junior | Detection Engineering
+<a href="https://github.com/omarbabba779xx">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=SIEM+%2F+SOAR+%2F+Detection+Engineering;MITRE+ATT%26CK+%2B+Sigma+Rules;Incident+Response+%26+Log+Analysis;Blockchain+Security+Audits" alt="Typing SVG" />
+</a>
 
 Tangier, Morocco
 
@@ -113,6 +118,15 @@ Blockchain Security Audit
 <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=omarbabba779xx&hide_border=true&background=0d1117&stroke=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=6e7681" />
+
+</div>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/output/github-contribution-grid-snake.svg" alt="contribution snake animation" />
+</picture>
 
 </div>
 
