@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="176" viewBox="0 0 760 176">
+  <defs>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#57606a"/>
+      <stop offset="40%" stop-color="#57606a"/>
+      <stop offset="48%" stop-color="#1f2328"/>
+      <stop offset="52%" stop-color="#0969da"/>
+      <stop offset="60%" stop-color="#57606a"/>
+      <stop offset="100%" stop-color="#57606a"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-1 0; 1 0; -1 0" dur="4.5s" repeatCount="indefinite" additive="sum"/>
+    </linearGradient>
+  </defs>
+
+  <text x="380" y="86" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif"
+        font-size="54" font-weight="300" letter-spacing="14" fill="url(#shine)">OMAR BABBA</text>
+
+  <line x1="290" y1="118" x2="470" y2="118" stroke="#d0d7de" stroke-width="1"/>
+
+  <text x="380" y="144" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif"
+        font-size="12.5" letter-spacing="4.5" fill="#57606a">SOC JUNIOR · DETECTION ENGINEERING</text>
+</svg>
