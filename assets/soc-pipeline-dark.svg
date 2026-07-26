@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150">
+  <rect width="760" height="150" fill="#0d1117"/>
+
+  <!-- connector line -->
+  <line x1="60" y1="60" x2="700" y2="60" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- traveling alert pulse -->
+  <circle r="4.5" fill="#58a6ff">
+    <animateMotion dur="4s" repeatCount="indefinite"
+      path="M60,60 L190,60 L320,60 L450,60 L580,60 L700,60" />
+    <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.85;0.9;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- node 1: INGEST -->
+  <g>
+    <rect x="34" y="34" width="52" height="52" rx="10" fill="#161b22" stroke="#30363d"/>
+    <line x1="48" y1="52" x2="72" y2="52" stroke="#8b949e" stroke-width="2"/>
+    <line x1="48" y1="60" x2="72" y2="60" stroke="#8b949e" stroke-width="2"/>
+    <line x1="48" y1="68" x2="64" y2="68" stroke="#8b949e" stroke-width="2"/>
+    <text x="60" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#8b949e">INGEST</text>
+  </g>
+
+  <!-- node 2: DETECT -->
+  <g>
+    <rect x="164" y="34" width="52" height="52" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="190" cy="60" r="12" fill="none" stroke="#58a6ff" stroke-width="1.6"/>
+    <circle cx="190" cy="60" r="3" fill="#58a6ff"/>
+    <text x="190" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#8b949e">DETECT</text>
+  </g>
+
+  <!-- node 3: TRIAGE -->
+  <g>
+    <rect x="294" y="34" width="52" height="52" rx="10" fill="#161b22" stroke="#30363d"/>
+    <path d="M308,48 L332,48 L322,60 L322,72 L318,72 L318,60 Z" fill="none" stroke="#8b949e" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="320" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#8b949e">TRIAGE</text>
+  </g>
+
+  <!-- node 4: INVESTIGATE -->
+  <g>
+    <rect x="424" y="34" width="52" height="52" rx="10" fill="#161b22" stroke="#30363d"/>
+    <circle cx="447" cy="56" r="9" fill="none" stroke="#8b949e" stroke-width="1.8"/>
+    <line x1="454" y1="63" x2="463" y2="72" stroke="#8b949e" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="450" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#8b949e">INVESTIGATE</text>
+  </g>
+
+  <!-- node 5: RESPOND -->
+  <g>
+    <rect x="554" y="34" width="52" height="52" rx="10" fill="#161b22" stroke="#30363d"/>
+    <path d="M580,44 L594,49 L594,60 C594,68 588,74 580,78 C572,74 566,68 566,60 L566,49 Z" fill="none" stroke="#58a6ff" stroke-width="1.6"/>
+    <path d="M573,60 L578,66 L588,53" fill="none" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="580" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#8b949e">RESPOND</text>
+  </g>
+
+  <!-- node 6: REPORT -->
+  <g>
+    <rect x="674" y="34" width="52" height="52" rx="10" fill="#161b22" stroke="#30363d"/>
+    <rect x="690" y="46" width="20" height="26" rx="2" fill="none" stroke="#8b949e" stroke-width="1.6"/>
+    <line x1="694" y1="53" x2="706" y2="53" stroke="#8b949e" stroke-width="1.4"/>
+    <line x1="694" y1="59" x2="706" y2="59" stroke="#8b949e" stroke-width="1.4"/>
+    <line x1="694" y1="65" x2="702" y2="65" stroke="#8b949e" stroke-width="1.4"/>
+    <text x="700" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#8b949e">REPORT</text>
+  </g>
+
+  <text x="380" y="138" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="3" fill="#484f58">DETECTION &amp; RESPONSE WORKFLOW</text>
+</svg>
