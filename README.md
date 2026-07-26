@@ -1,10 +1,10 @@
 <div align="center">
 
-# Omar Babba
-
-### Élève Ingénieur en Cybersécurité — SOC Junior | Detection Engineering
-
-Tangier, Morocco
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/terminal-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/terminal-light.svg" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/terminal-dark.svg" alt="omar_babba — soc junior / detection engineer" width="100%" />
+</picture>
 
 </div>
 
@@ -107,12 +107,6 @@ Blockchain Security Audit
 
 <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=omarbabba779xx&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" />
 <img height="165em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=omarbabba779xx&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=omarbabba779xx&hide_border=true&background=0d1117&stroke=0d1117&ring=58a6ff&fire=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=6e7681" />
 
 </div>
 
