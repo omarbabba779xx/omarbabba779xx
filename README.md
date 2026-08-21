@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=11" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=11" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=11" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=12" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=12" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=12" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
 </picture>
 
 </div>
@@ -35,9 +35,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=7" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-light.svg?v=7" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=7" alt="SOC workflow: Ingest, Detect, Triage, Investigate, Respond, Report" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=8" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-light.svg?v=8" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=8" alt="SOC workflow: Ingest, Detect, Triage, Investigate, Respond, Report" width="100%" />
 </picture>
 
 </div>

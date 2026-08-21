@@ -7,9 +7,11 @@
 
     <linearGradient id="activeLineLight" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0969da"/>
-      <stop offset="35%" stop-color="#0550ae"/>
-      <stop offset="70%" stop-color="#8250df"/>
-      <stop offset="100%" stop-color="#bf3989"/>
+      <stop offset="20%" stop-color="#0550ae"/>
+      <stop offset="40%" stop-color="#1f883d"/>
+      <stop offset="60%" stop-color="#8250df"/>
+      <stop offset="80%" stop-color="#bf3989"/>
+      <stop offset="100%" stop-color="#1a7f37"/>
     </linearGradient>
 
     <linearGradient id="cardGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -18,95 +20,130 @@
     </linearGradient>
   </defs>
 
-  <style>
-    @keyframes movePulseLight {
-      0% { offset-distance: 0%; opacity: 0; }
-      10% { opacity: 1; }
-      90% { opacity: 1; }
-      100% { offset-distance: 100%; opacity: 0; }
-    }
-    .pulse-dot-light {
-      offset-path: path("M 70 70 L 210 70 L 350 70 L 490 70 L 630 70 L 770 70");
-      animation: movePulseLight 4.5s infinite linear;
-    }
-  </style>
-
-  <!-- Container -->
+  <!-- Container Box -->
   <rect x="2" y="2" width="846" height="156" rx="12" fill="url(#pipeBgLight)" stroke="#d0d7de" stroke-width="1.2"/>
 
-  <!-- Top Title Tag -->
+  <!-- Top Title Header -->
   <g transform="translate(425, 20)">
     <text x="0" y="0" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" 
           font-size="9.5" font-weight="700" letter-spacing="2.5" fill="#0969da">
-      SOC OPERATIONAL LIFECYCLE · EVENT TO REMEDIATION
+      DETECTION &amp; RESPONSE WORKFLOW · REAL-TIME ALERT LIFECYCLE
     </text>
   </g>
 
-  <!-- Connecting Bus Line -->
-  <line x1="70" y1="70" x2="770" y2="70" stroke="#d0d7de" stroke-width="3"/>
-  <line x1="70" y1="70" x2="770" y2="70" stroke="url(#activeLineLight)" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <!-- Base Bus Track -->
+  <line x1="70" y1="70" x2="770" y2="70" stroke="#d0d7de" stroke-width="4" stroke-linecap="round"/>
 
-  <!-- Traveling Pulse Packet -->
-  <circle r="5" fill="#0969da" class="pulse-dot-light"/>
+  <!-- Animated Streaming Dashed Flow Line -->
+  <line x1="70" y1="70" x2="770" y2="70" stroke="url(#activeLineLight)" stroke-width="2" stroke-dasharray="10,6">
+    <animate attributeName="stroke-dashoffset" values="0;-32" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Primary Traveling Alert Pulse (SMIL Native Motion) -->
+  <circle r="5" fill="#0969da">
+    <animateMotion dur="3.5s" repeatCount="indefinite"
+      path="M 70,70 L 210,70 L 350,70 L 490,70 L 630,70 L 770,70" />
+    <animate attributeName="opacity" values="0;1;1;1;1;1;0" keyTimes="0;0.05;0.3;0.6;0.85;0.95;1" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Secondary Trailing Glow Halo -->
+  <circle r="8" fill="#0550ae" opacity="0.3">
+    <animateMotion dur="3.5s" repeatCount="indefinite"
+      path="M 70,70 L 210,70 L 350,70 L 490,70 L 630,70 L 770,70" />
+    <animate attributeName="opacity" values="0;0.4;0.4;0.4;0.4;0.4;0" keyTimes="0;0.05;0.3;0.6;0.85;0.95;1" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- Node 1: INGEST -->
   <g transform="translate(70, 70)">
     <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#d0d7de" stroke-width="1.2"/>
-    <circle cx="-32" cy="-14" r="3" fill="#0969da"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#0969da">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.08;0.16"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.08;0.16"/>
+    </circle>
     <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">INGEST</text>
     <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">EVTX · Sysmon</text>
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">PCAP · Zeek</text>
   </g>
 
+  <!-- Flow Directional Chevron 1-2 -->
+  <path d="M 132 70 L 138 66 M 132 70 L 138 74" stroke="#0969da" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+
   <!-- Node 2: DETECT -->
   <g transform="translate(210, 70)">
     <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#0969da" stroke-width="1.2"/>
-    <circle cx="-32" cy="-14" r="3" fill="#0969da"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#0969da">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.15;0.25;0.35;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.15;0.25;0.35;1"/>
+    </circle>
     <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">DETECT</text>
     <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">SigmaHQ Rules</text>
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">MITRE ATT&amp;CK</text>
   </g>
 
+  <!-- Flow Directional Chevron 2-3 -->
+  <path d="M 272 70 L 278 66 M 272 70 L 278 74" stroke="#0550ae" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+
   <!-- Node 3: TRIAGE -->
   <g transform="translate(350, 70)">
     <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#d0d7de" stroke-width="1.2"/>
-    <circle cx="-32" cy="-14" r="3" fill="#0550ae"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#0550ae">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.35;0.45;0.55;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.35;0.45;0.55;1"/>
+    </circle>
     <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">TRIAGE</text>
     <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Deduplication</text>
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Severity Route</text>
   </g>
 
+  <!-- Flow Directional Chevron 3-4 -->
+  <path d="M 412 70 L 418 66 M 412 70 L 418 74" stroke="#8250df" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+
   <!-- Node 4: INVESTIGATE -->
   <g transform="translate(490, 70)">
     <rect x="-54" y="-32" width="108" height="64" rx="8" fill="url(#cardGradLight)" stroke="#8250df" stroke-width="1.2"/>
-    <circle cx="-42" cy="-14" r="3" fill="#8250df"/>
+    <circle cx="-42" cy="-14" r="3.5" fill="#8250df">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.55;0.65;0.75;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.55;0.65;0.75;1"/>
+    </circle>
     <text x="-32" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#1f2328" letter-spacing="0.3">INVESTIGATE</text>
     <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">REMnux Sandbx</text>
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Wireshark DFIR</text>
   </g>
 
+  <!-- Flow Directional Chevron 4-5 -->
+  <path d="M 552 70 L 558 66 M 552 70 L 558 74" stroke="#bf3989" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+
   <!-- Node 5: RESPOND -->
   <g transform="translate(630, 70)">
     <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#d0d7de" stroke-width="1.2"/>
-    <circle cx="-32" cy="-14" r="3" fill="#bf3989"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#bf3989">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.75;0.85;0.95;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.75;0.85;0.95;1"/>
+    </circle>
     <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">RESPOND</text>
     <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">SOAR Playbooks</text>
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Containment</text>
   </g>
 
+  <!-- Flow Directional Chevron 5-6 -->
+  <path d="M 692 70 L 698 66 M 692 70 L 698 74" stroke="#1a7f37" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+
   <!-- Node 6: REPORT -->
   <g transform="translate(770, 70)">
     <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#d0d7de" stroke-width="1.2"/>
-    <circle cx="-32" cy="-14" r="3" fill="#1a7f37"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#1a7f37">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.9;0.98;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.9;0.98;1"/>
+    </circle>
     <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">REPORT</text>
     <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">STIX 2.1 / IOCs</text>
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Post-Mortem</text>
   </g>
 
-  <!-- Bottom Metric Bar -->
+  <!-- Bottom Subtitle Bar -->
   <g transform="translate(425, 142)">
     <text x="0" y="0" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#57606a">
-      End-to-End Threat Detection, Triage Automation, Malware Extraction &amp; Incident Verification
+      Continuous Signal Ingestion ▹ Automated Correlation ▹ Forensic Investigation ▹ Orchestrated Response
     </text>
   </g>
 </svg>
