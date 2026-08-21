@@ -65,8 +65,8 @@
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">PCAP · Zeek</text>
   </g>
 
-  <!-- Flow Directional Chevron 1-2 -->
-  <path d="M 132 70 L 138 66 M 132 70 L 138 74" stroke="#0969da" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- Flow Directional Forward Arrow 1 -> 2 -->
+  <path d="M 137 65 L 143 70 L 137 75" stroke="#0969da" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
 
   <!-- Node 2: DETECT -->
   <g transform="translate(210, 70)">
@@ -80,8 +80,8 @@
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">MITRE ATT&amp;CK</text>
   </g>
 
-  <!-- Flow Directional Chevron 2-3 -->
-  <path d="M 272 70 L 278 66 M 272 70 L 278 74" stroke="#0550ae" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- Flow Directional Forward Arrow 2 -> 3 -->
+  <path d="M 277 65 L 283 70 L 277 75" stroke="#0550ae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
 
   <!-- Node 3: TRIAGE -->
   <g transform="translate(350, 70)">
@@ -95,8 +95,8 @@
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Severity Route</text>
   </g>
 
-  <!-- Flow Directional Chevron 3-4 -->
-  <path d="M 412 70 L 418 66 M 412 70 L 418 74" stroke="#8250df" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- Flow Directional Forward Arrow 3 -> 4 -->
+  <path d="M 417 65 L 423 70 L 417 75" stroke="#8250df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
 
   <!-- Node 4: INVESTIGATE -->
   <g transform="translate(490, 70)">
@@ -105,13 +105,13 @@
       <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.55;0.65;0.75;1"/>
       <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.55;0.65;0.75;1"/>
     </circle>
-    <text x="-32" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#1f2328" letter-spacing="0.3">INVESTIGATE</text>
+    <text x="-32" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.3">INVESTIGATE</text>
     <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">REMnux Sandbx</text>
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Wireshark DFIR</text>
   </g>
 
-  <!-- Flow Directional Chevron 4-5 -->
-  <path d="M 552 70 L 558 66 M 552 70 L 558 74" stroke="#bf3989" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- Flow Directional Forward Arrow 4 -> 5 -->
+  <path d="M 557 65 L 563 70 L 557 75" stroke="#bf3989" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
 
   <!-- Node 5: RESPOND -->
   <g transform="translate(630, 70)">
@@ -125,8 +125,8 @@
     <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Containment</text>
   </g>
 
-  <!-- Flow Directional Chevron 5-6 -->
-  <path d="M 692 70 L 698 66 M 692 70 L 698 74" stroke="#1a7f37" stroke-width="1.6" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- Flow Directional Forward Arrow 5 -> 6 -->
+  <path d="M 697 65 L 703 70 L 697 75" stroke="#1a7f37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
 
   <!-- Node 6: REPORT -->
   <g transform="translate(770, 70)">
