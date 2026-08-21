@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=5" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=5" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=5" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=6" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=6" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=6" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
 </picture>
 
 </div>
@@ -23,9 +23,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=1" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-light.svg?v=1" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=1" alt="SOC workflow: Ingest, Detect, Triage, Investigate, Respond, Report" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-light.svg?v=2" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=2" alt="SOC workflow: Ingest, Detect, Triage, Investigate, Respond, Report" width="100%" />
 </picture>
 
 </div>
@@ -54,38 +54,38 @@
 <tr>
 <td width="33%" valign="top">
 
-### [CyberTwin-SOC](https://github.com/omarbabba779xx/CyberTwin-SOC-v2)
-SOC, SIEM & Detection Engineering
+### [wazuh-n8n-soc-pipeline](https://github.com/omarbabba779xx/wazuh-n8n-soc-pipeline)
+**Event-Driven SOC Alert Automation**
 
-- Full-stack SOC platform with OCSF ingestion
-- 4,000+ Sigma/MITRE/Elastic rules with ATT&CK coverage mapping
-- Analyst workflows, coverage scoring, rule validation
+- Real-time Wazuh Integrator webhook pipeline with sub-second notification latency
+- Token-authenticated ingress, severity routing & silent deduplication
+- Automatic disk-queue failover replay on service interruption
 
-`SOC` `SIEM` `Sigma` `MITRE ATT&CK` `Python` `Docker`
-
-</td>
-<td width="33%" valign="top">
-
-### [APT-Simulator](https://github.com/omarbabba779xx/APT-Simulator)
-MITRE ATT&CK Detection Validation
-
-- Lab-safe framework covering 22 ATT&CK TTPs
-- APT29 / FIN7 / Lazarus / APT41 emulation profiles
-- Reproducible JSONL SIEM traces to test alert coverage and improve Sigma rules
-
-`MITRE ATT&CK` `SIEM` `Sigma` `APT` `Docker`
+`Wazuh` `n8n` `SOAR` `SIEM` `Python` `OAuth2` `Docker`
 
 </td>
 <td width="33%" valign="top">
 
-### [MediChain-plus](https://github.com/omarbabba779xx/Medichain-plus)
-Blockchain Security Audit
+### [malware-sandbox-analysis-lab](https://github.com/omarbabba779xx/malware-sandbox-analysis-lab)
+**Static & Dynamic Sandbox Analysis**
 
-- Fabric + Polygon: private prescriptions, Node.js bridge, Solidity smart contract
-- Smart contract audit: 19 findings remediated, reentrancy guard added
-- CI security pipeline with Slither / Semgrep / Gitleaks
+- In-depth static & dynamic analysis of 5 real-world malware samples in REMnux
+- Dissected evasion techniques: process injection, padding bloat & anti-sandbox sleep
+- Extracted C2 network indicators, MITRE ATT&CK mapping & consolidated IOC export
 
-`Blockchain Security` `Solidity` `Slither` `Semgrep` `Gitleaks`
+`Malware Analysis` `REMnux` `Wireshark` `MITRE ATT&CK` `YARA` `IOCs`
+
+</td>
+<td width="33%" valign="top">
+
+### [network-traffic-monitoring-lab](https://github.com/omarbabba779xx/network-traffic-monitoring-lab)
+**SOC Network Forensics & Threat Hunting**
+
+- 5 real malware PCAP investigations via Wireshark, tcpdump, Zeek & NetworkMiner
+- Uncovered C2 beacons, Cloudflare tunnel abuse, and remote access trojan behaviors
+- Authored production-ready Sigma detection rules mapped to ATT&CK techniques
+
+`Network Forensics` `Wireshark` `Zeek` `Sigma` `tcpdump` `PCAP`
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Blockchain Security Audit
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,docker,linux,git,react,ts,postgres,solidity,grafana,wireshark&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,bash,linux,docker,git,postgres,react,ts,solidity,wireshark&theme=dark" />
 
 </div>
 
@@ -113,13 +113,13 @@ Blockchain Security Audit
 `Splunk` `IBM QRadar` `Microsoft Sentinel` `Elastic (ELK)` `Graylog` `Wazuh`
 
 **SOAR & Case Management**
-`Cortex XSOAR` `Shuffle` `TheHive` `MISP`
+`Cortex XSOAR` `Shuffle` `TheHive` `MISP` `n8n`
 
 **IDS / NSM / Detection Engineering**
 `Suricata` `Zeek` `Snort` `Sigma` `YARA` `Sysmon`
 
 **Forensics & Threat Hunting**
-`Velociraptor` `Osquery` `Volatility` `KAPE`
+`Velociraptor` `Osquery` `Volatility` `KAPE` `NetworkMiner`
 
 **EDR & Cloud Detection**
 `CrowdStrike Falcon` `Microsoft Defender` `Google Chronicle / SecOps`
