@@ -7,29 +7,11 @@
       <stop offset="100%" stop-color="#f0f3f6"/>
     </linearGradient>
 
-    <linearGradient id="shieldLeftBevelLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#f1f5f9"/>
-      <stop offset="100%" stop-color="#e2e8f0"/>
-    </linearGradient>
-
-    <linearGradient id="shieldRightBevelLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f8fafc"/>
-      <stop offset="50%" stop-color="#e2e8f0"/>
-      <stop offset="100%" stop-color="#cbd5e1"/>
-    </linearGradient>
-
-    <linearGradient id="goldCyanTrimLight" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="cyanBlueLight" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0969da"/>
       <stop offset="50%" stop-color="#0550ae"/>
       <stop offset="100%" stop-color="#1f883d"/>
     </linearGradient>
-
-    <radialGradient id="coreGlowLight" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0969da" stop-opacity="0.3"/>
-      <stop offset="60%" stop-color="#0969da" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
 
     <linearGradient id="textShineLight" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1f2328"/>
@@ -49,10 +31,6 @@
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#d0d7de" stroke-width="0.6" stroke-opacity="0.5"/>
       <circle cx="30" cy="30" r="0.8" fill="#0969da" fill-opacity="0.25"/>
     </pattern>
-
-    <filter id="emblemShadowLight" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0969da" flood-opacity="0.15"/>
-    </filter>
   </defs>
 
   <style>
@@ -92,32 +70,31 @@
   <path d="M 18 196 L 18 212 L 34 212" fill="none" stroke="#0969da" stroke-width="1.8" opacity="0.85"/>
   <path d="M 832 196 L 832 212 L 816 212" fill="none" stroke="#0969da" stroke-width="1.8" opacity="0.85"/>
 
-  <!-- Luxury 3D Faceted Cybersecurity Shield Crest -->
-  <g transform="translate(425, 48)" filter="url(#emblemShadowLight)">
-    <!-- Radial Core Halo -->
-    <circle cx="0" cy="5" r="28" fill="url(#coreGlowLight)"/>
+  <!-- Elite Minimalist Cybersecurity Sentinel Monomark (Light) -->
+  <g transform="translate(425, 48)">
+    <!-- Ambient Core Glow -->
+    <circle cx="0" cy="6" r="22" fill="#0969da" opacity="0.08"/>
 
-    <!-- Left Shield Facet -->
-    <path d="M 0 -22 L -24 -12 L -24 8 C -24 22 -12 34 0 40 Z" 
-          fill="url(#shieldLeftBevelLight)" stroke="url(#goldCyanTrimLight)" stroke-width="1.2"/>
+    <!-- Outer Precision Armor Shield -->
+    <path d="M 0 -18 
+             C 12 -18 22 -10 22 2 
+             C 22 18 10 28 0 34 
+             C -10 28 -22 18 -22 2 
+             C -22 -10 -12 -18 0 -18 Z" 
+          fill="#f6f8fa" stroke="#0969da" stroke-width="1.8" stroke-linejoin="round"/>
 
-    <!-- Right Shield Facet -->
-    <path d="M 0 -22 L 24 -12 L 24 8 C 24 22 12 34 0 40 Z" 
-          fill="url(#shieldRightBevelLight)" stroke="url(#goldCyanTrimLight)" stroke-width="1.2"/>
+    <!-- Inner Sleek Protective Shield Line -->
+    <path d="M 0 -10 
+             C 7 -10 14 -4 14 3 
+             C 14 13 6 20 0 24 
+             C -6 20 -14 13 -14 3 
+             C -14 -4 -7 -10 0 -10 Z" 
+          fill="#ffffff" stroke="#0550ae" stroke-width="1.2" opacity="0.9"/>
 
-    <!-- Center Facet Spine -->
-    <line x1="0" y1="-22" x2="0" y2="40" stroke="#0969da" stroke-width="1.4" opacity="0.8"/>
-
-    <!-- Micro-Circuit Nodes on Wings -->
-    <circle cx="-14" cy="0" r="1.5" fill="#0969da"/>
-    <line x1="-14" y1="0" x2="-8" y2="5" stroke="#0969da" stroke-width="0.8" opacity="0.7"/>
-    <circle cx="14" cy="0" r="1.5" fill="#0969da"/>
-    <line x1="14" y1="0" x2="8" y2="5" stroke="#0969da" stroke-width="0.8" opacity="0.7"/>
-
-    <!-- Luxury Cryptographic Diamond Core -->
-    <path d="M 0 -5 L 9 5 L 0 15 L -9 5 Z" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
-    <circle cx="0" cy="5" r="3" fill="#0969da"/>
-    <circle cx="0" cy="5" r="1.5" fill="#ffffff"/>
+    <!-- Central Precision Cryptographic Core -->
+    <circle cx="0" cy="4" r="3.2" fill="#0969da"/>
+    <path d="M -1.8 6 L -2.8 12 L 2.8 12 L 1.8 6 Z" fill="#0969da"/>
+    <circle cx="0" cy="4" r="1.4" fill="#ffffff"/>
   </g>
 
   <!-- Main Name Title -->
