@@ -1,116 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="155" viewBox="0 0 850 155">
-  <defs>
-    <linearGradient id="pipeBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#f6f8fa"/>
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150">
+  <rect width="760" height="150" fill="#ffffff"/>
 
-    <linearGradient id="streamLineLight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0969da" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#0969da" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#0969da" stop-opacity="0.3"/>
-    </linearGradient>
-  </defs>
+  <!-- connector line -->
+  <line x1="60" y1="60" x2="700" y2="60" stroke="#d0d7de" stroke-width="1.5"/>
 
-  <!-- Clean Container -->
-  <rect x="1" y="1" width="848" height="153" rx="8" fill="url(#pipeBgLight)" stroke="#d0d7de" stroke-width="1"/>
-
-  <!-- Top Header Title -->
-  <g transform="translate(425, 22)">
-    <text x="0" y="0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" 
-          font-size="9.5" font-weight="600" letter-spacing="2" fill="#57606a">
-      DETECTION &amp; RESPONSE WORKFLOW · SOC ALERT LIFECYCLE
-    </text>
-  </g>
-
-  <!-- Bus Line Track -->
-  <line x1="70" y1="68" x2="770" y2="68" stroke="#eaeef2" stroke-width="2.5" stroke-linecap="round"/>
-
-  <!-- Streaming Flow Animation -->
-  <line x1="70" y1="68" x2="770" y2="68" stroke="url(#streamLineLight)" stroke-width="1.8" stroke-dasharray="8,6">
-    <animate attributeName="stroke-dashoffset" values="0;-28" dur="1.4s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- Clean Signal Indicator (Subtle Blue) -->
-  <circle r="4" fill="#0969da">
+  <!-- traveling alert pulse -->
+  <circle r="4.5" fill="#0969da">
     <animateMotion dur="4s" repeatCount="indefinite"
-      path="M 70,68 L 210,68 L 350,68 L 490,68 L 630,68 L 770,68" />
-    <animate attributeName="opacity" values="0;1;1;1;1;1;0" keyTimes="0;0.05;0.3;0.6;0.85;0.95;1" dur="4s" repeatCount="indefinite"/>
+      path="M60,60 L190,60 L320,60 L450,60 L580,60 L700,60" />
+    <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.85;0.9;1" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Stage 1: Ingest -->
-  <g transform="translate(70, 68)">
-    <rect x="-52" y="-30" width="104" height="60" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="-36" y="-12" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#0969da">01</text>
-    <text x="-16" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#1f2328">INGEST</text>
-    <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">Sysmon · EVTX</text>
-    <text x="0" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">Zeek · PCAP</text>
+  <!-- node 1: INGEST -->
+  <g>
+    <rect x="34" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <line x1="48" y1="52" x2="72" y2="52" stroke="#57606a" stroke-width="2"/>
+    <line x1="48" y1="60" x2="72" y2="60" stroke="#57606a" stroke-width="2"/>
+    <line x1="48" y1="68" x2="64" y2="68" stroke="#57606a" stroke-width="2"/>
+    <text x="60" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">INGEST</text>
   </g>
 
-  <!-- Flow Arrow 1-2 -->
-  <path d="M 137 64 L 142 68 L 137 72" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
-
-  <!-- Stage 2: Detect -->
-  <g transform="translate(210, 68)">
-    <rect x="-52" y="-30" width="104" height="60" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="1"/>
-    <text x="-36" y="-12" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#0969da">02</text>
-    <text x="-16" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#1f2328">DETECT</text>
-    <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">SigmaHQ Rules</text>
-    <text x="0" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">MITRE ATT&amp;CK</text>
+  <!-- node 2: DETECT -->
+  <g>
+    <rect x="164" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <circle cx="190" cy="60" r="12" fill="none" stroke="#0969da" stroke-width="1.6"/>
+    <circle cx="190" cy="60" r="3" fill="#0969da"/>
+    <text x="190" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">DETECT</text>
   </g>
 
-  <!-- Flow Arrow 2-3 -->
-  <path d="M 277 64 L 282 68 L 277 72" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
-
-  <!-- Stage 3: Triage -->
-  <g transform="translate(350, 68)">
-    <rect x="-52" y="-30" width="104" height="60" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="-36" y="-12" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#0969da">03</text>
-    <text x="-16" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#1f2328">TRIAGE</text>
-    <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">Deduplication</text>
-    <text x="0" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">Severity Route</text>
+  <!-- node 3: TRIAGE -->
+  <g>
+    <rect x="294" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <path d="M308,48 L332,48 L322,60 L322,72 L318,72 L318,60 Z" fill="none" stroke="#57606a" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="320" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">TRIAGE</text>
   </g>
 
-  <!-- Flow Arrow 3-4 -->
-  <path d="M 417 64 L 422 68 L 417 72" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
-
-  <!-- Stage 4: Investigate -->
-  <g transform="translate(490, 68)">
-    <rect x="-54" y="-30" width="108" height="60" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="1"/>
-    <text x="-40" y="-12" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#0969da">04</text>
-    <text x="-20" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="#1f2328">INVESTIGATE</text>
-    <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">REMnux Sandbox</text>
-    <text x="0" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">Wireshark DFIR</text>
+  <!-- node 4: INVESTIGATE -->
+  <g>
+    <rect x="424" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <circle cx="447" cy="56" r="9" fill="none" stroke="#57606a" stroke-width="1.8"/>
+    <line x1="454" y1="63" x2="463" y2="72" stroke="#57606a" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="450" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">INVESTIGATE</text>
   </g>
 
-  <!-- Flow Arrow 4-5 -->
-  <path d="M 557 64 L 562 68 L 557 72" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
-
-  <!-- Stage 5: Respond -->
-  <g transform="translate(630, 68)">
-    <rect x="-52" y="-30" width="104" height="60" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="-36" y="-12" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#0969da">05</text>
-    <text x="-16" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#1f2328">RESPOND</text>
-    <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">SOAR Playbooks</text>
-    <text x="0" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">Containment</text>
+  <!-- node 5: RESPOND -->
+  <g>
+    <rect x="554" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <path d="M580,44 L594,49 L594,60 C594,68 588,74 580,78 C572,74 566,68 566,60 L566,49 Z" fill="none" stroke="#0969da" stroke-width="1.6"/>
+    <path d="M573,60 L578,66 L588,53" fill="none" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="580" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">RESPOND</text>
   </g>
 
-  <!-- Flow Arrow 5-6 -->
-  <path d="M 697 64 L 702 68 L 697 72" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
-
-  <!-- Stage 6: Report -->
-  <g transform="translate(770, 68)">
-    <rect x="-52" y="-30" width="104" height="60" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="-36" y="-12" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#0969da">06</text>
-    <text x="-16" y="-12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#1f2328">REPORT</text>
-    <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">STIX 2.1 / IOCs</text>
-    <text x="0" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="8.5" fill="#57606a">Post-Mortem</text>
+  <!-- node 6: REPORT -->
+  <g>
+    <rect x="674" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+    <rect x="690" y="46" width="20" height="26" rx="2" fill="none" stroke="#57606a" stroke-width="1.6"/>
+    <line x1="694" y1="53" x2="706" y2="53" stroke="#57606a" stroke-width="1.4"/>
+    <line x1="694" y1="59" x2="706" y2="59" stroke="#57606a" stroke-width="1.4"/>
+    <line x1="694" y1="65" x2="702" y2="65" stroke="#57606a" stroke-width="1.4"/>
+    <text x="700" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">REPORT</text>
   </g>
 
-  <!-- Bottom Subtitle Bar -->
-  <g transform="translate(425, 137)">
-    <text x="0" y="0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#57606a">
-      Telemetry Ingestion ▹ Automated Correlation ▹ Forensic Investigation ▹ Orchestrated Mitigation
-    </text>
-  </g>
+  <text x="380" y="138" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="3" fill="#8c959f">DETECTION &amp; RESPONSE WORKFLOW</text>
 </svg>
