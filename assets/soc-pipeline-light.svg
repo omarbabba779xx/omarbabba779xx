@@ -1,65 +1,149 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150">
-  <rect width="760" height="150" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="160" viewBox="0 0 850 160">
+  <defs>
+    <linearGradient id="pipeBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6f8fa"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
 
-  <!-- connector line -->
-  <line x1="60" y1="60" x2="700" y2="60" stroke="#d0d7de" stroke-width="1.5"/>
+    <linearGradient id="activeLineLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0969da"/>
+      <stop offset="20%" stop-color="#0550ae"/>
+      <stop offset="40%" stop-color="#1f883d"/>
+      <stop offset="60%" stop-color="#8250df"/>
+      <stop offset="80%" stop-color="#bf3989"/>
+      <stop offset="100%" stop-color="#1a7f37"/>
+    </linearGradient>
 
-  <!-- traveling alert pulse -->
-  <circle r="4.5" fill="#0969da">
-    <animateMotion dur="4s" repeatCount="indefinite"
-      path="M60,60 L190,60 L320,60 L450,60 L580,60 L700,60" />
-    <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.85;0.9;1" dur="4s" repeatCount="indefinite"/>
+    <linearGradient id="cardGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f6f8fa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="846" height="156" rx="12" fill="url(#pipeBgLight)" stroke="#d0d7de" stroke-width="1.2"/>
+
+  <!-- Top Title Header -->
+  <g transform="translate(425, 20)">
+    <text x="0" y="0" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" 
+          font-size="9.5" font-weight="700" letter-spacing="2.5" fill="#0969da">
+      DETECTION &amp; RESPONSE WORKFLOW · REAL-TIME ALERT LIFECYCLE
+    </text>
+  </g>
+
+  <!-- Base Bus Track -->
+  <line x1="70" y1="70" x2="770" y2="70" stroke="#d0d7de" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Animated Streaming Dashed Flow Line -->
+  <line x1="70" y1="70" x2="770" y2="70" stroke="url(#activeLineLight)" stroke-width="2" stroke-dasharray="10,6">
+    <animate attributeName="stroke-dashoffset" values="0;-32" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Primary Traveling Alert Pulse (SMIL Native Motion) -->
+  <circle r="5" fill="#0969da">
+    <animateMotion dur="3.5s" repeatCount="indefinite"
+      path="M 70,70 L 210,70 L 350,70 L 490,70 L 630,70 L 770,70" />
+    <animate attributeName="opacity" values="0;1;1;1;1;1;0" keyTimes="0;0.05;0.3;0.6;0.85;0.95;1" dur="3.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- node 1: INGEST -->
-  <g>
-    <rect x="34" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-    <line x1="48" y1="52" x2="72" y2="52" stroke="#57606a" stroke-width="2"/>
-    <line x1="48" y1="60" x2="72" y2="60" stroke="#57606a" stroke-width="2"/>
-    <line x1="48" y1="68" x2="64" y2="68" stroke="#57606a" stroke-width="2"/>
-    <text x="60" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">INGEST</text>
+  <!-- Secondary Trailing Glow Halo -->
+  <circle r="8" fill="#0550ae" opacity="0.3">
+    <animateMotion dur="3.5s" repeatCount="indefinite"
+      path="M 70,70 L 210,70 L 350,70 L 490,70 L 630,70 L 770,70" />
+    <animate attributeName="opacity" values="0;0.4;0.4;0.4;0.4;0.4;0" keyTimes="0;0.05;0.3;0.6;0.85;0.95;1" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Node 1: INGEST -->
+  <g transform="translate(70, 70)">
+    <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#d0d7de" stroke-width="1.2"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#0969da">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.08;0.16"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.08;0.16"/>
+    </circle>
+    <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">INGEST</text>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">EVTX · Sysmon</text>
+    <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">PCAP · Zeek</text>
   </g>
 
-  <!-- node 2: DETECT -->
-  <g>
-    <rect x="164" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-    <circle cx="190" cy="60" r="12" fill="none" stroke="#0969da" stroke-width="1.6"/>
-    <circle cx="190" cy="60" r="3" fill="#0969da"/>
-    <text x="190" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">DETECT</text>
+  <!-- Flow Directional Forward Arrow 1 -> 2 -->
+  <path d="M 137 65 L 143 70 L 137 75" stroke="#0969da" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
+
+  <!-- Node 2: DETECT -->
+  <g transform="translate(210, 70)">
+    <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#0969da" stroke-width="1.2"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#0969da">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.15;0.25;0.35;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.15;0.25;0.35;1"/>
+    </circle>
+    <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">DETECT</text>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">SigmaHQ Rules</text>
+    <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">MITRE ATT&amp;CK</text>
   </g>
 
-  <!-- node 3: TRIAGE -->
-  <g>
-    <rect x="294" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-    <path d="M308,48 L332,48 L322,60 L322,72 L318,72 L318,60 Z" fill="none" stroke="#57606a" stroke-width="1.8" stroke-linejoin="round"/>
-    <text x="320" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">TRIAGE</text>
+  <!-- Flow Directional Forward Arrow 2 -> 3 -->
+  <path d="M 277 65 L 283 70 L 277 75" stroke="#0550ae" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
+
+  <!-- Node 3: TRIAGE -->
+  <g transform="translate(350, 70)">
+    <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#d0d7de" stroke-width="1.2"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#0550ae">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.35;0.45;0.55;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.35;0.45;0.55;1"/>
+    </circle>
+    <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">TRIAGE</text>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Deduplication</text>
+    <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Severity Route</text>
   </g>
 
-  <!-- node 4: INVESTIGATE -->
-  <g>
-    <rect x="424" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-    <circle cx="447" cy="56" r="9" fill="none" stroke="#57606a" stroke-width="1.8"/>
-    <line x1="454" y1="63" x2="463" y2="72" stroke="#57606a" stroke-width="1.8" stroke-linecap="round"/>
-    <text x="450" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">INVESTIGATE</text>
+  <!-- Flow Directional Forward Arrow 3 -> 4 -->
+  <path d="M 417 65 L 423 70 L 417 75" stroke="#8250df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
+
+  <!-- Node 4: INVESTIGATE -->
+  <g transform="translate(490, 70)">
+    <rect x="-54" y="-32" width="108" height="64" rx="8" fill="url(#cardGradLight)" stroke="#8250df" stroke-width="1.2"/>
+    <circle cx="-42" cy="-14" r="3.5" fill="#8250df">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.55;0.65;0.75;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.55;0.65;0.75;1"/>
+    </circle>
+    <text x="-32" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.3">INVESTIGATE</text>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">REMnux Sandbx</text>
+    <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Wireshark DFIR</text>
   </g>
 
-  <!-- node 5: RESPOND -->
-  <g>
-    <rect x="554" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-    <path d="M580,44 L594,49 L594,60 C594,68 588,74 580,78 C572,74 566,68 566,60 L566,49 Z" fill="none" stroke="#0969da" stroke-width="1.6"/>
-    <path d="M573,60 L578,66 L588,53" fill="none" stroke="#0969da" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="580" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">RESPOND</text>
+  <!-- Flow Directional Forward Arrow 4 -> 5 -->
+  <path d="M 557 65 L 563 70 L 557 75" stroke="#bf3989" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
+
+  <!-- Node 5: RESPOND -->
+  <g transform="translate(630, 70)">
+    <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#d0d7de" stroke-width="1.2"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#bf3989">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.75;0.85;0.95;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.75;0.85;0.95;1"/>
+    </circle>
+    <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">RESPOND</text>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">SOAR Playbooks</text>
+    <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Containment</text>
   </g>
 
-  <!-- node 6: REPORT -->
-  <g>
-    <rect x="674" y="34" width="52" height="52" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-    <rect x="690" y="46" width="20" height="26" rx="2" fill="none" stroke="#57606a" stroke-width="1.6"/>
-    <line x1="694" y1="53" x2="706" y2="53" stroke="#57606a" stroke-width="1.4"/>
-    <line x1="694" y1="59" x2="706" y2="59" stroke="#57606a" stroke-width="1.4"/>
-    <line x1="694" y1="65" x2="702" y2="65" stroke="#57606a" stroke-width="1.4"/>
-    <text x="700" y="112" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="1.5" fill="#57606a">REPORT</text>
+  <!-- Flow Directional Forward Arrow 5 -> 6 -->
+  <path d="M 697 65 L 703 70 L 697 75" stroke="#1a7f37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.95"/>
+
+  <!-- Node 6: REPORT -->
+  <g transform="translate(770, 70)">
+    <rect x="-52" y="-32" width="104" height="64" rx="8" fill="url(#cardGradLight)" stroke="#d0d7de" stroke-width="1.2"/>
+    <circle cx="-32" cy="-14" r="3.5" fill="#1a7f37">
+      <animate attributeName="r" values="3.5;3.5;5.5;3.5;3.5" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.9;0.98;1"/>
+      <animate attributeName="opacity" values="0.7;0.7;1;0.7;0.7" dur="3.5s" repeatCount="indefinite" keyTimes="0;0.9;0.98;1"/>
+    </circle>
+    <text x="-22" y="-10.5" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700" fill="#1f2328" letter-spacing="0.5">REPORT</text>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">STIX 2.1 / IOCs</text>
+    <text x="0" y="19" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#57606a">Post-Mortem</text>
   </g>
 
-  <text x="380" y="138" text-anchor="middle" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="3" fill="#8c959f">DETECTION &amp; RESPONSE WORKFLOW</text>
+  <!-- Bottom Subtitle Bar -->
+  <g transform="translate(425, 142)">
+    <text x="0" y="0" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#57606a">
+      Continuous Signal Ingestion ▹ Automated Correlation ▹ Forensic Investigation ▹ Orchestrated Response
+    </text>
+  </g>
 </svg>
