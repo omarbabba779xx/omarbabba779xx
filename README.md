@@ -1,24 +1,24 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=25" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=25" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=25" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=30" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=30" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=30" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
 </picture>
 
 </div>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Open_to_Internships-00f2fe?style=for-the-badge&logoColor=black&labelColor=0d1117)](https://linkedin.com/in/omarbabba)
-[![Focus](https://img.shields.io/badge/Focus-SOC_%26_Detection_Engineering-58a6ff?style=for-the-badge&logoColor=white&labelColor=0d1117)](https://github.com/omarbabba779xx)
-[![Education](https://img.shields.io/badge/Institution-EMSI_Tanger-38bdf8?style=for-the-badge&logoColor=white&labelColor=0d1117)](https://github.com/omarbabba779xx)
+[![Status](https://img.shields.io/badge/STATUS-Open%20to%20SOC%20Internships-00f2fe?style=flat-square&logoColor=0d1117&labelColor=0d1117)](https://linkedin.com/in/omarbabba)
+[![Specialization](https://img.shields.io/badge/SPECIALIZATION-SOC%20%26%20Detection%20Engineering-58a6ff?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/omarbabba779xx)
+[![Institution](https://img.shields.io/badge/INSTITUTION-EMSI%20Tanger-38bdf8?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/omarbabba779xx)
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/omarbabba)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omarbabba27@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omarbabba779xx)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-omarbabba-0077B5?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/omarbabba)
+[![Email](https://img.shields.io/badge/Email-omarbabba27%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:omarbabba27@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-omarbabba779xx-181717?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/omarbabba779xx)
 
 </div>
 
@@ -26,7 +26,7 @@
 
 <div align="center">
 
-> **4th-year Computer Science & Networks engineering student at EMSI Tanger**, focused on **defensive security**, **SOC operations**, and **detection engineering**. Projects centered on **SIEM/SOAR**, **Sigma rules**, **MITRE ATT&CK**, **alert triage**, **log analysis** and **incident response** — with a side specialization in **blockchain security**.
+> **4th-year Computer Science & Networks engineering student at EMSI Tanger**, specializing in **defensive cybersecurity**, **SOC operations**, and **detection engineering**. Hands-on engineering focused on **SIEM/SOAR automation**, **Sigma rules**, **MITRE ATT&CK mapping**, **alert triage**, **log analysis**, and **threat hunting** — with an additional background in **blockchain security**.
 
 </div>
 
@@ -35,30 +35,30 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=15" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-light.svg?v=15" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=15" alt="SOC workflow: Ingest, Detect, Triage, Investigate, Respond, Report" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=20" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-light.svg?v=20" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=20" alt="SOC workflow: Ingest, Detect, Triage, Investigate, Respond, Report" width="100%" />
 </picture>
 
 </div>
 
 ---
 
-### 🎓 Education
+### 🎓 Education & Background
 
-**Cycle Ingénieur — Informatique et Réseaux** · EMSI (École Marocaine des Sciences de l'Ingénieur), Tanger · 2022 – Present
-- **Web/mobile security:** OWASP Top 10, SQLi/XSS, APK analysis, root detection, InsecureBank/InsecureShop
-- **VPN & monitoring:** IPsec/IKE, OpenVPN, WireGuard, Wireshark, SNMP/Syslog, Zabbix, Prometheus
-- **Incident & intrusion:** SIEM/SOC, Windows/Linux logs, Sigma, MITRE ATT&CK, triage, SEC555 methodology
+**Cycle Ingénieur — Informatique et Réseaux** · *EMSI (École Marocaine des Sciences de l'Ingénieur), Tanger* · **2022 – Present**
+- ▹ **Web & Mobile Security:** OWASP Top 10, SQLi/XSS, APK reverse engineering, root detection, InsecureBank / InsecureShop
+- ▹ **Network Infrastructure & Monitoring:** IPsec/IKE, OpenVPN, WireGuard, Wireshark, SNMP/Syslog, Zabbix, Prometheus
+- ▹ **Intrusion & SOC Operations:** SIEM/SOC engineering, Windows/Linux event logs, SigmaHQ, MITRE ATT&CK, SEC555 methodology
 
 ---
 
-### 💼 Experience
+### 💼 Industry Experience
 
-**Cybersecurity Awareness Internship** · Amendis Tangier (Groupe Veolia) · August 2025
-- Delivered fundamentals training: CIA triad, user-side risk, phishing, security best practices
-- Exposure to SCADA environments, the Riot platform, and GLPI for inventory/operational tracking
-- Ran a phishing simulation — measurable drop in click-through rate after awareness training
+**Cybersecurity Awareness Intern** · *Amendis Tangier (Groupe Veolia)* · **August 2025**
+- ▹ Delivered corporate security training across the CIA triad, endpoint threat vectors, phishing recognition, and operational hygiene
+- ▹ Gained practical exposure to SCADA industrial control environments, Riot security tooling, and GLPI asset tracking
+- ▹ Orchestrated a controlled phishing campaign resulting in a measurable drop in employee click-through rates
 
 ---
 
@@ -68,56 +68,62 @@
 <tr>
 <td width="33%" valign="top">
 
-### ⚙️ [wazuh-n8n-soc-pipeline](https://github.com/omarbabba779xx/wazuh-n8n-soc-pipeline)
-**Event-Driven SOC Alert Automation**
+#### ⚙️ [wazuh-n8n-soc-pipeline](https://github.com/omarbabba779xx/wazuh-n8n-soc-pipeline)
+`SIEM / SOAR Automation`
 
-- ▹ Real-time Wazuh Integrator webhook pipeline with sub-second notification latency
-- ▹ Token-authenticated ingress, severity routing & silent deduplication
-- ▹ Automatic disk-queue failover replay on service interruption
+Automated event-driven alert pipeline connecting Wazuh SIEM to n8n SOAR workflows.
 
-<br/>
-
-`Wazuh` `n8n` `SOAR` `SIEM` `Python` `OAuth2` `Docker`
+- ▹ Real-time webhook integration with sub-second delivery
+- ▹ Token-authenticated ingress & dynamic severity routing
+- ▹ Automated deduplication & disk-queue failover replay
 
 <br/>
 
-[**🔗 Explore Repository →**](https://github.com/omarbabba779xx/wazuh-n8n-soc-pipeline)
+`Wazuh` `n8n` `Python` `OAuth2` `Docker`
+
+<br/>
+
+[**View Repository ↗**](https://github.com/omarbabba779xx/wazuh-n8n-soc-pipeline)
 
 </td>
 <td width="33%" valign="top">
 
-### 🔬 [malware-sandbox-analysis-lab](https://github.com/omarbabba779xx/malware-sandbox-analysis-lab)
-**Static & Dynamic Sandbox Analysis**
+#### 🔬 [malware-sandbox-analysis-lab](https://github.com/omarbabba779xx/malware-sandbox-analysis-lab)
+`DFIR & Reverse Engineering`
 
-- ▹ In-depth static & dynamic analysis of 5 real-world malware samples in REMnux
-- ▹ Dissected evasion techniques: process injection, padding bloat & anti-sandbox sleep
-- ▹ Extracted C2 network indicators, MITRE ATT&CK mapping & consolidated IOC export
+Static and dynamic behavioral analysis of real-world malware samples inside isolated REMnux.
 
-<br/>
-
-`Malware Analysis` `REMnux` `Wireshark` `MITRE ATT&CK` `YARA` `IOCs`
+- ▹ Dissected process injection, bloat evasion & anti-sandbox sleep
+- ▹ Extracted network C2 indicators & behavioral timelines
+- ▹ MITRE ATT&CK technique mapping & consolidated IOC exports
 
 <br/>
 
-[**🔗 Explore Repository →**](https://github.com/omarbabba779xx/malware-sandbox-analysis-lab)
+`REMnux` `Wireshark` `YARA` `MITRE ATT&CK` `PEstudio`
+
+<br/>
+
+[**View Repository ↗**](https://github.com/omarbabba779xx/malware-sandbox-analysis-lab)
 
 </td>
 <td width="33%" valign="top">
 
-### 🌐 [network-traffic-monitoring-lab](https://github.com/omarbabba779xx/network-traffic-monitoring-lab)
-**SOC Network Forensics & Threat Hunting**
+#### 🌐 [network-traffic-monitoring-lab](https://github.com/omarbabba779xx/network-traffic-monitoring-lab)
+`Network Forensics & Hunting`
 
-- ▹ 5 real malware PCAP investigations via Wireshark, tcpdump, Zeek & NetworkMiner
-- ▹ Uncovered C2 beacons, Cloudflare tunnel abuse, and remote access trojan behaviors
-- ▹ Authored production-ready Sigma detection rules mapped to ATT&CK techniques
+Deep-packet threat hunting and malicious network traffic analysis across forensic PCAPs.
 
-<br/>
-
-`Network Forensics` `Wireshark` `Zeek` `Sigma` `tcpdump` `PCAP`
+- ▹ Investigated C2 beaconing, Cloudflare tunnel abuse & RAT behaviors
+- ▹ Multi-tool telemetry correlation using Zeek, tcpdump & NetworkMiner
+- ▹ Authored production SigmaHQ rules mapped to ATT&CK matrix
 
 <br/>
 
-[**🔗 Explore Repository →**](https://github.com/omarbabba779xx/network-traffic-monitoring-lab)
+`Wireshark` `Zeek` `SigmaHQ` `tcpdump` `PCAP`
+
+<br/>
+
+[**View Repository ↗**](https://github.com/omarbabba779xx/network-traffic-monitoring-lab)
 
 </td>
 </tr>
@@ -125,15 +131,15 @@
 
 ---
 
-### ⚡ Technical Skills & Tooling
+### ⚡ Technical Competencies & Security Tooling
 
 | Domain | Technical Competencies |
 |---|---|
-| **SOC & Detection Engineering** | SIEM/SOAR, Sigma, MITRE ATT&CK, OCSF, SOC use cases, alert triage, log analysis |
-| **Incident & Intrusion Management** | Preparation, triage, containment, eradication, recovery, EVTX, auditd, Zeek |
-| **Network Security, VPN & Monitoring** | IPsec/IKE, OpenVPN, WireGuard, GRE, OSPF, SNMP, NetFlow/sFlow, Wireshark, Zabbix |
-| **Web & Mobile Security** | OWASP Top 10, SQLi/XSS, access control, session security, APK analysis, root detection |
-| **Blockchain Security & Smart Contracts** | Ethereum, Solidity, smart contracts, ERC-20/ERC-721, PoW/PoS, Slither, Semgrep, Gitleaks |
+| **SOC & Detection Engineering** | SIEM/SOAR architectures, SigmaHQ rules, MITRE ATT&CK, OCSF, alert triage workflows, log correlation |
+| **Incident & Intrusion Management** | Preparation, triage, containment, eradication, recovery, Windows EVTX, auditd, Sysmon, Zeek |
+| **Network Security & Forensics** | IPsec/IKE, OpenVPN, WireGuard, GRE, OSPF, SNMP, NetFlow/sFlow, Wireshark, Zabbix, Zeek NSM |
+| **Web & Application Security** | OWASP Top 10, SQLi, XSS, SSRF, access control enforcement, APK analysis, mobile root detection |
+| **Blockchain Security & Auditing** | Ethereum, Solidity smart contracts, ERC-20/ERC-721, Slither static analysis, Semgrep, Gitleaks |
 
 <br/>
 
@@ -148,17 +154,17 @@
 **SIEM & Log Management**
 `Splunk` `IBM QRadar` `Microsoft Sentinel` `Elastic (ELK)` `Graylog` `Wazuh`
 
-**SOAR & Case Management**
+**SOAR & Incident Response**
 `Cortex XSOAR` `Shuffle` `TheHive` `MISP` `n8n`
 
 **IDS / NSM / Detection Engineering**
-`Suricata` `Zeek` `Snort` `Sigma` `YARA` `Sysmon`
+`Suricata` `Zeek` `Snort` `SigmaHQ` `YARA` `Sysmon`
 
-**Forensics & Threat Hunting**
-`Velociraptor` `Osquery` `Volatility` `KAPE` `NetworkMiner`
+**Digital Forensics & Threat Hunting**
+`Velociraptor` `Osquery` `Volatility` `KAPE` `NetworkMiner` `Wireshark`
 
 **EDR & Cloud Detection**
-`CrowdStrike Falcon` `Microsoft Defender` `Google Chronicle / SecOps`
+`CrowdStrike Falcon` `Microsoft Defender for Endpoint` `Google Chronicle / SecOps`
 
 ---
 
@@ -177,6 +183,6 @@
 
 **Languages:** French (Advanced) · English (Advanced) · Arabic (Native)
 
-<sub>Open to SOC analyst / detection engineering internships — reach out via LinkedIn or email above.</sub>
+<sub>Open to SOC Analyst &amp; Detection Engineering internship opportunities — connect via LinkedIn or email above.</sub>
 
 </div>
