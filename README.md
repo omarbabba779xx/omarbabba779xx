@@ -1,24 +1,24 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=30" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=30" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=30" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=40" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-light.svg?v=40" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/name-dark.svg?v=40" alt="Omar Babba — SOC Junior / Detection Engineering" width="100%" />
 </picture>
 
 </div>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/STATUS-Open%20to%20SOC%20Internships-00f2fe?style=flat-square&logoColor=0d1117&labelColor=0d1117)](https://linkedin.com/in/omarbabba)
-[![Specialization](https://img.shields.io/badge/SPECIALIZATION-SOC%20%26%20Detection%20Engineering-58a6ff?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/omarbabba779xx)
-[![Institution](https://img.shields.io/badge/INSTITUTION-EMSI%20Tanger-38bdf8?style=flat-square&logoColor=white&labelColor=0d1117)](https://github.com/omarbabba779xx)
+[![Status](https://img.shields.io/badge/Status-Open_to_SOC_Internships-2563eb?style=flat-square&logoColor=white)](https://linkedin.com/in/omarbabba)
+[![Focus](https://img.shields.io/badge/Specialization-SOC_%26_Detection_Engineering-1e293b?style=flat-square&logoColor=white)](https://github.com/omarbabba779xx)
+[![Institution](https://img.shields.io/badge/Institution-EMSI_Tanger-0f172a?style=flat-square&logoColor=white)](https://github.com/omarbabba779xx)
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-omarbabba-0077B5?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1117)](https://linkedin.com/in/omarbabba)
-[![Email](https://img.shields.io/badge/Email-omarbabba27%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:omarbabba27@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-omarbabba779xx-181717?style=flat-square&logo=github&logoColor=white&labelColor=0d1117)](https://github.com/omarbabba779xx)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/omarbabba)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:omarbabba27@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/omarbabba779xx)
 
 </div>
 
@@ -26,7 +26,7 @@
 
 <div align="center">
 
-> **4th-year Computer Science & Networks engineering student at EMSI Tanger**, specializing in **defensive cybersecurity**, **SOC operations**, and **detection engineering**. Hands-on engineering focused on **SIEM/SOAR automation**, **Sigma rules**, **MITRE ATT&CK mapping**, **alert triage**, **log analysis**, and **threat hunting** — with an additional background in **blockchain security**.
+> **4th-year Computer Science & Networks engineering student at EMSI Tanger**, focusing on **defensive cybersecurity**, **SOC operations**, and **detection engineering**. Hands-on engineering in **SIEM/SOAR automation**, **Sigma rules**, **MITRE ATT&CK mapping**, **alert triage**, **log analysis**, and **threat hunting** — with an additional background in **blockchain security**.
 
 </div>
 
@@ -35,9 +35,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=20" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-light.svg?v=20" />
-  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=20" alt="SOC workflow: Ingest, Detect, Triage, Investigate, Respond, Report" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=25" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-light.svg?v=25" />
+  <img src="https://raw.githubusercontent.com/omarbabba779xx/omarbabba779xx/main/assets/soc-pipeline-dark.svg?v=25" alt="SOC workflow: Ingest, Detect, Triage, Investigate, Respond, Report" width="100%" />
 </picture>
 
 </div>
