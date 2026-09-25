@@ -20,13 +20,13 @@ I publish **[monthly threat intelligence reports](https://omarbabba.co/blog/)** 
 <details>
 <summary><strong>Background, experience & languages</strong></summary>
 
-**Computer Science & Networks Engineering** · EMSI Tanger · 2022–present<br>
+<img src="assets/logo-emsi.png" width="20" height="20" alt="EMSI logo">&nbsp; **Computer Science & Networks Engineering** · EMSI Tanger · 2022–present<br>
 Fifth-year, final-year student focused on defensive security, network monitoring, and incident response, with a side interest in blockchain security.
 
-**SOC Analyst Intern — AI-Augmented Security Pipeline (PFA)** · Amendis Tanger, Groupe Veolia · July–August 2026<br>
+<img src="assets/logo-amendis.png" width="20" height="20" alt="Amendis logo">&nbsp; **SOC Analyst Intern — AI-Augmented Security Pipeline (PFA)** · Amendis Tanger, Groupe Veolia · July–August 2026<br>
 Designed and deployed an end-to-end SOC pipeline — Wazuh → Shuffle → local Gemma2 (Ollama) → TheHive → Cortex → MISP — in an isolated lab. Raised MITRE ATT&CK mapping completeness from 40% to 100% on a 25-alert evaluation set, validated six controlled attack scenarios, and kept routing deterministic with AI output advisory only. [Case study ↗](https://omarbabba.co/projects/pfa-soc-ia.html)
 
-**Cybersecurity Awareness Intern** · Amendis Tanger, Groupe Veolia · July–August 2025<br>
+<img src="assets/logo-amendis.png" width="20" height="20" alt="Amendis logo">&nbsp; **Cybersecurity Awareness Intern** · Amendis Tanger, Groupe Veolia · July–August 2025<br>
 First hands-on exposure to enterprise security within the cybersecurity department: analysed SCADA exposure in water and electricity networks, explored the Riot awareness platform, took part in a phishing simulation (click-through fell from 25% to 5% after training), and studied GLPI in an OT context.
 
 **Languages:** Arabic — native · French — advanced · English — advanced.
